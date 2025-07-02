@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffany's Daycare Center | Trusted 4.8⭐ Daycare in Bulawayo</title>
+    <meta name="description" content="Tiffany's Daycare Center offers a nurturing, play-based learning environment for children in Bulawayo. With a 4.8-star parent rating, flexible hours, and dedicated staff, we give your child the best start.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-red: #E53935;
+            --color-green: #43A047;
+            --color-blue: #1E88E5;
+            --color-yellow: #FDD835;
+            --color-dark-blue: #1A237E;
+            --color-light-blue: #E3F2FD;
+            --color-text: #333;
+            --color-white: #FFFFFF;
+            --color-gray: #F5F5F5;
+            --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-medium: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--color-text);
+            line-height: 1.7;
+            background-color: var(--color-white);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--color-dark-blue);
+        }
+
+        h1 { font-size: 2.75rem; }
+        h2 { font-size: 2.25rem; }
+        h3 { font-size: 1.5rem; }
+        p { margin-bottom: 1rem; }
+        a { color: var(--color-blue); text-decoration: none; }
+        img { max-width: 100%; height: auto; display: block; }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        .section {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.85rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-light);
+        }
+
+        .btn-red {
+            background-color: var(--color-red);
+            color: var(--color-white);
+        }
+        .btn-red:hover {
+            background-color: #C62828;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-green {
+            background-color: var(--color-green);
+            color: var(--color-white);
+        }
+        .btn-green:hover {
+            background-color: #2E7D32;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--color-white);
+            border: 2px solid var(--color-white);
+        }
+        .btn-outline:hover {
+            background-color: var(--color-white);
+            color: var(--color-red);
+        }
+
+        /* Header */
+        .header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--color-white);
+            z-index: 1000;
+            box-shadow: var(--shadow-light);
+            transition: background-color 0.3s ease;
+        }
+
+        .header-scrolled {
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(5px);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 5rem;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--color-blue);
+        }
+        .logo span { color: var(--color-red); }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            color: var(--color-dark-blue);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: var(--color-red);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--color-red);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .phone-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: var(--color-green);
+            color: white;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+        .phone-icon:hover {
+            transform: scale(1.1) rotate(15deg);
+        }
+        .phone-icon svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .nav-toggle {
+            display: none;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+        }
+        .nav-toggle span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: var(--color-dark-blue);
+            margin: 5px 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--color-white);
+            overflow: hidden;
+        }
+        
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-dark-blue);
+            opacity: 0.75;
+            z-index: -1;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            animation: fadeInHero 1.5s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        @keyframes fadeInHero {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            color: var(--color-white);
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .hero .subheadline {
+            font-size: 1.25rem;
+            margin-bottom: 2.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 400;
+        }
+
+        .hero-cta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .hero-stars {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .hero-stars .star {
+            width: 30px;
+            height: 30px;
+            fill: var(--color-yellow);
+            animation: floatStar 3s ease-in-out infinite;
+        }
+        
+        .hero-stars .star:nth-child(2) { animation-delay: 0.2s; }
+        .hero-stars .star:nth-child(3) { animation-delay: 0.4s; }
+        .hero-stars .star:nth-child(4) { animation-delay: 0.6s; }
+        .hero-stars .star:nth-child(5) { animation-delay: 0.8s; }
+
+        @keyframes floatStar {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Why Section */
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .why-card {
+            padding: 2.5rem 1.5rem;
+            border-radius: 12px;
+            background-color: var(--color-white);
+            box-shadow: var(--shadow-light);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .why-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .why-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            background-color: var(--color-light-blue);
+        }
+        .why-icon svg {
+            width: 40px;
+            height: 40px;
+            color: var(--color-blue);
+        }
+        .why-card:nth-child(1) .why-icon { background-color: #FFF3E0; }
+        .why-card:nth-child(1) .why-icon svg { color: #FB8C00; }
+        .why-card:nth-child(2) .why-icon { background-color: #E8F5E9; }
+        .why-card:nth-child(2) .why-icon svg { color: var(--color-green); }
+        .why-card:nth-child(3) .why-icon { background-color: #FCE4EC; }
+        .why-card:nth-child(3) .why-icon svg { color: #EC407A; }
+
+        /* About Section */
+        .about-section {
+            background-color: var(--color-gray);
+        }
+        .about-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        .about-text p {
+            max-width: 650px;
+        }
+        .about-info {
+            background: var(--color-white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-light);
+        }
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .info-item svg {
+            flex-shrink: 0;
+            width: 24px;
+            height: 24px;
+            color: var(--color-blue);
+            margin-top: 4px;
+        }
+        .info-item h4 {
+            margin-bottom: 0.25rem;
+            font-size: 1.1rem;
+        }
+
+        /* Programs Section */
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 5rem;
+        }
+        .program-card {
+            background: var(--color-white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-light);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .program-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-medium);
+        }
+        .program-image {
+            height: 220px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .program-content {
+            padding: 1.5rem;
+        }
+        .program-age {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .program-card:nth-child(1) .program-age {
+            background-color: #FFF3E0;
+            color: #FB8C00;
+        }
+        .program-card:nth-child(2) .program-age {
+            background-color: #E3F2FD;
+            color: var(--color-blue);
+        }
+        .program-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .program-list li {
+            position: relative;
+            padding-left: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+        .program-list li::before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: var(--color-green);
+            font-weight: bold;
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            background-color: var(--color-light-blue);
+            position: relative;
+            overflow: hidden;
+        }
+        .testimonial-slider {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .testimonial-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .testimonial-card {
+            flex: 0 0 100%;
+            background-color: var(--color-white);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-medium);
+            text-align: center;
+        }
+        .testimonial-card blockquote {
+            font-size: 1.1rem;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--color-dark-blue);
+        }
+        .testimonial-rating {
+            display: flex;
+            justify-content: center;
+            gap: 0.25rem;
+            margin-top: 1rem;
+        }
+        .testimonial-rating svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--color-yellow);
+        }
+        .slider-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
+            left: -1rem;
+        }
+        .slider-btn {
+            background: var(--color-white);
+            border: none;
+            border-radius: 50%;
+            width: 45px;
+            height: 45px;
+            cursor: pointer;
+            box-shadow: var(--shadow-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+        }
+        .slider-btn:hover {
+            background-color: var(--color-gray);
+        }
+        .slider-btn svg {
+            width: 24px;
+            height: 24px;
+            color: var(--color-blue);
+        }
+
+        /* Final CTA */
+        .final-cta {
+            text-align: center;
+            background-color: var(--color-white);
+        }
+        .final-cta h2 {
+            margin-bottom: 2rem;
+        }
+        .final-cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--color-dark-blue);
+            color: var(--color-white);
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .footer-col h4 {
+            color: var(--color-white);
+            margin-bottom: 1rem;
+        }
+        .footer-col p, .footer-col a {
+            color: #BDBDBD;
+            transition: color 0.3s ease;
+        }
+        .footer-col a:hover {
+            color: var(--color-white);
+        }
+        .footer-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+        .footer-contact-item svg {
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+        }
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid #424242;
+            padding-top: 2rem;
+            font-size: 0.9rem;
+            color: #BDBDBD;
+        }
+        .footer-bottom a {
+            margin: 0 0.5rem;
+        }
+        
+        /* Utility Classes */
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .nav-menu {
+                position: fixed;
+                top: 5rem;
+                right: -100%;
+                width: 100%;
+                height: calc(100vh - 5rem);
+                background-color: var(--color-white);
+                flex-direction: column;
+                justify-content: center;
+                gap: 2.5rem;
+                transition: right 0.5s ease-in-out;
+                box-shadow: -5px 5px 15px rgba(0,0,0,0.1);
+            }
+            .nav-menu.active {
+                right: 0;
+            }
+            .nav-toggle {
+                display: block;
+                z-index: 1001;
+            }
+            .nav-toggle.active span:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+            .nav-toggle.active span:nth-child(2) {
+                opacity: 0;
+            }
+            .nav-toggle.active span:nth-child(3) {
+                transform: rotate(-45deg) translate(7px, -6px);
+            }
+            .header-actions .btn {
+                display: none;
+            }
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+            .slider-nav {
+                display: none; /* Simpler navigation for mobile */
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            .hero h1 { font-size: 2.75rem; }
+            .hero { min-height: 600px; }
+            .section { padding-top: 4rem; padding-bottom: 4rem; }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .hero h1 { font-size: 2.2rem; }
+            .hero .subheadline { font-size: 1.1rem; }
+            .hero-cta { flex-direction: column; gap: 1rem; align-items: center; }
+            .btn { width: 100%; max-width: 320px; }
+            .final-cta-buttons { flex-direction: column; gap: 1rem; align-items: center; }
+            .footer-grid {
+                text-align: center;
+            }
+            .footer-contact-item {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="container navbar">
+            <a href="#" class="logo">Tiffany's <span>Daycare</span></a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#programs" class="nav-link">Programs</a></li>
+                <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="tel:0772862707" class="btn btn-red">Book a Visit</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <img src="hero2.jpg" alt="Happy child playing at daycare" class="hero-bg" onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/1E88E5/FFFFFF?text=Tiffany%27s+Daycare';">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <div class="hero-stars">
+                    <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                    <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                    <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                    <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                    <svg class="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                </div>
+                <h1>Give Your Child the Best Start</h1>
+                <p class="subheadline">A safe, nurturing, and stimulating environment where your child can play, learn, and grow with confidence. Join the Tiffany's family today.</p>
+                <div class="hero-cta">
+                    <a href="tel:0772862707" class="btn btn-red btn-lg">Book a Visit</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section why-section">
+            <div class="container">
+                <h2 class="section-title fade-in-section">Why Parents Choose Tiffany's</h2>
+                <div class="why-grid">
+                    <div class="why-card fade-in-section">
+                        <div class="why-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"></path></svg>
+                        </div>
+                        <h3>Trusted by Parents</h3>
+                        <p>With a 4.8-star rating from local parents, we are a trusted choice for quality childcare in Bulawayo. Your child's safety and happiness are our top priorities.</p>
+                    </div>
+                    <div class="why-card fade-in-section">
+                        <div class="why-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>
+                        </div>
+                        <h3>Flexible & Reliable</h3>
+                        <p>We understand the demands on working parents. Our flexible hours, open daily until 5:30 PM, provide the reliability you need to manage your busy schedule.</p>
+                    </div>
+                    <div class="why-card fade-in-section">
+                        <div class="why-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43z"></path></svg>
+                        </div>
+                        <h3>Learning & Growth</h3>
+                        <p>Our play-based curriculum encourages curiosity, creativity, and social skills. We create a fun, stimulating environment for holistic child development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-content fade-in-section">
+                    <div class="about-text">
+                        <h2>A Nurturing Second Home for Your Child</h2>
+                        <p>Welcome to Tiffany's Daycare Center, a place where little minds are nurtured, and big adventures begin. Founded on the principle that every child deserves a safe and inspiring place to grow, we have been proudly serving the Bulawayo community with dedication and love. Our experienced caregivers are passionate about creating a warm, inclusive atmosphere that feels like a second home for your child.</p>
+                        <p>We believe in learning through play, where structured activities and free exploration work hand-in-hand to build cognitive, social, and emotional skills. Come see what makes us special.</p>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>
+                            <div>
+                                <h4>Our Location</h4>
+                                <p>72 Cumberland Drive, Bulawayo</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>
+                            <div>
+                                <h4>Our Hours</h4>
+                                <p>Open Daily, Closes 5:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in-section">Our Program Highlights</h2>
+                <div class="programs-grid">
+                    <div class="program-card fade-in-section">
+                        <img src="two-three.jpg" alt="Toddlers playing with blocks" class="program-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/FDD835/333333?text=Ages+2-3';">
+                        <div class="program-content">
+                            <span class="program-age">Ages 2-3</span>
+                            <h3>Gentle Introduction</h3>
+                            <p>A nurturing start focusing on social skills, sensory exploration, and building confidence in a group setting.</p>
+                            <ul class="program-list">
+                                <li>Story Time & Music</li>
+                                <li>Sensory Play</li>
+                                <li>Basic Motor Skills</li>
+                                <li>Outdoor Fun</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="program-card fade-in-section">
+                        <img src="three-five.jpg" alt="Preschoolers painting" class="program-image" onerror="this.onerror=null;this.src='https://placehold.co/600x400/1E88E5/FFFFFF?text=Ages+3-5';">
+                        <div class="program-content">
+                            <span class="program-age">Ages 3-5</span>
+                            <h3>School Readiness</h3>
+                            <p>A structured, play-based curriculum to prepare your child for primary school with a focus on literacy and numeracy.</p>
+                            <ul class="program-list">
+                                <li>Early Literacy & Phonics</li>
+                                <li>Basic Math Concepts</li>
+                                <li>Creative Arts & Crafts</li>
+                                <li>Problem-Solving Games</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section testimonials-section">
+            <div class="container">
+                <h2 class="section-title fade-in-section">What Our Parents Say</h2>
+                <div class="testimonial-slider fade-in-section">
+                    <div class="testimonial-track">
+                        <div class="testimonial-card">
+                            <blockquote>"Tiffany's has been a blessing for our family. The staff are so caring and my daughter has learned so much. She comes home happy every single day. I couldn't ask for more!"</blockquote>
+                            <p class="testimonial-author">- Thandiwe M.</p>
+                            <div class="testimonial-rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <blockquote>"The flexibility with hours is a lifesaver for me as a working professional. The facility is clean, safe, and full of engaging toys. Highly recommend to any parent in Bulawayo."</blockquote>
+                            <p class="testimonial-author">- David C.</p>
+                            <div class="testimonial-rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <blockquote>"A wonderful place for kids to grow. The play-based learning approach is fantastic. My son has developed so much socially and is always excited to go to 'school'."</blockquote>
+                            <p class="testimonial-author">- Farai N.</p>
+                            <div class="testimonial-rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-nav">
+                        <button class="slider-btn" id="prev-slide" aria-label="Previous testimonial">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg>
+                        </button>
+                        <button class="slider-btn" id="next-slide" aria-label="Next testimonial">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section final-cta">
+            <div class="container fade-in-section">
+                <h2>Ready to Give Your Child the Best Start?</h2>
+                <p>Come and see our nurturing environment for yourself. Book a no-obligation visit today!</p>
+                <div class="final-cta-buttons">
+                    <a href="tel:0772862707" class="btn btn-red btn-lg">Book a Visit</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Tiffany's Daycare Center</h4>
+                    <p>A nurturing, play-based learning environment where your child can thrive.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <p><a href="#about">About Us</a></p>
+                    <p><a href="#programs">Our Programs</a></p>
+                    <p><a href="#reviews">Parent Reviews</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>
+                        <span>72 Cumberland Drive, Bulawayo</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C9.98 21 3 14.02 3 6c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.58.11.35.03.74-.25 1.02l-2.2 2.2z"></path></svg>
+                        <a href="tel:0772862707">077 286 2707</a>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"></path></svg>
+                        <span>Open Daily, Closes 5:30 PM</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Tiffany's Daycare Center. All Rights Reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Sticky Header
+            const header = document.getElementById('header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('header-scrolled');
+                } else {
+                    header.classList.remove('header-scrolled');
+                }
+            });
+
+            // Mobile Navigation
+            const navToggle = document.getElementById('nav-toggle');
+            const navMenu = document.getElementById('nav-menu');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                navToggle.classList.toggle('active');
+            });
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                    navToggle.classList.remove('active');
+                });
+            });
+
+            // Testimonial Slider
+            const track = document.querySelector('.testimonial-track');
+            const slides = Array.from(track.children);
+            const nextButton = document.getElementById('next-slide');
+            const prevButton = document.getElementById('prev-slide');
+            const slideWidth = slides[0].getBoundingClientRect().width;
+            let currentIndex = 0;
+
+            const setSlidePosition = (slide, index) => {
+                slide.style.left = slideWidth * index + 'px';
+            };
+            // slides.forEach(setSlidePosition); // not needed for flexbox implementation
+
+            const moveToSlide = (track, currentSlide, targetSlide) => {
+                const targetIndex = slides.findIndex(slide => slide === targetSlide);
+                track.style.transform = 'translateX(-' + (100 * targetIndex) + '%)';
+                currentIndex = targetIndex;
+            };
+
+            prevButton.addEventListener('click', e => {
+                const prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+                const targetSlide = slides[prevIndex];
+                moveToSlide(track, slides[currentIndex], targetSlide);
+            });
+
+            nextButton.addEventListener('click', e => {
+                const nextIndex = (currentIndex + 1) % slides.length;
+                const targetSlide = slides[nextIndex];
+                moveToSlide(track, slides[currentIndex], targetSlide);
+            });
+            
+            // Auto-play slider
+            setInterval(() => {
+                const nextIndex = (currentIndex + 1) % slides.length;
+                moveToSlide(track, slides[currentIndex], slides[nextIndex]);
+            }, 5000);
+
+            // Smooth Scroll for all anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+             // Get the current year and display it
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            
+            // Fade-in animations on scroll
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '0px',
+                threshold: 0.1
+            });
+
+            document.querySelectorAll('.fade-in-section').forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+
+</body>
+</html>
